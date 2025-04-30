@@ -16,7 +16,7 @@ This project contains three microservices:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/microservices-project.git
+    git clone https://github.com/VarshitAnsarie21/Microservices-Project.git
     ```
 
 2. Build the application:
