@@ -20,7 +20,7 @@ public class ProductService {
     public Product createProduct(Product product) {
         Product newProduct = productRepository.findById(product.getProductId()).orElse(new Product());
         if(newProduct.getProductId() != null) {
-            throw new RuntimeException("User already exists");
+            throw new RuntimeException("Product already exists");
         }
         newProduct.setProductName(product.getProductName());
         newProduct.setProductDescription(product.getProductDescription());
